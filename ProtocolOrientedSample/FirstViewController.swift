@@ -10,6 +10,9 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet private weak var label1: UILabel!
+    @IBOutlet private weak var label2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
