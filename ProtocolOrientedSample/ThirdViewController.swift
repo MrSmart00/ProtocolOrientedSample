@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ThirdViewController: UIViewController, Protocol1, Protocol2 {
 
     @IBOutlet private weak var label1: UILabel!
     @IBOutlet private weak var label2: UILabel!
@@ -16,7 +16,8 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        outputProtocol1(label: label1)
+        outputProtocol2(label: label2)
     }
 
     override func didReceiveMemoryWarning() {
