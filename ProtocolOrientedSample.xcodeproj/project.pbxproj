@@ -17,6 +17,7 @@
 		C54DD46A20E1DC2700D4CE3B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD46920E1DC2700D4CE3B /* FirstViewController.swift */; };
 		C54DD46C20E1DC3200D4CE3B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD46B20E1DC3200D4CE3B /* SecondViewController.swift */; };
 		C54DD46E20E1DC3F00D4CE3B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD46D20E1DC3F00D4CE3B /* ThirdViewController.swift */; };
+		C5972B5420E1E3D1006ACDBD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B5320E1E3D1006ACDBD /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C54DD46920E1DC2700D4CE3B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C54DD46B20E1DC3200D4CE3B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C54DD46D20E1DC3F00D4CE3B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C5972B5320E1E3D1006ACDBD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C54DD43B20E1DB9500D4CE3B /* AppDelegate.swift */,
 				C54DD43D20E1DB9500D4CE3B /* ViewController.swift */,
 				C54DD43F20E1DB9500D4CE3B /* Main.storyboard */,
+				C5972B5320E1E3D1006ACDBD /* BaseViewController.swift */,
 				C54DD46920E1DC2700D4CE3B /* FirstViewController.swift */,
 				C54DD46B20E1DC3200D4CE3B /* SecondViewController.swift */,
 				C54DD46D20E1DC3F00D4CE3B /* ThirdViewController.swift */,
@@ -270,6 +273,7 @@
 				C54DD46E20E1DC3F00D4CE3B /* ThirdViewController.swift in Sources */,
 				C54DD43E20E1DB9500D4CE3B /* ViewController.swift in Sources */,
 				C54DD43C20E1DB9500D4CE3B /* AppDelegate.swift in Sources */,
+				C5972B5420E1E3D1006ACDBD /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: BaseViewController {
 
     @IBOutlet private weak var label1: UILabel!
     @IBOutlet private weak var label2: UILabel!
@@ -16,7 +16,8 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        outputFuga(label: label1)
+        outputGaga(label: label2)
     }
 
     override func didReceiveMemoryWarning() {

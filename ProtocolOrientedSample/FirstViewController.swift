@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: BaseViewController {
 
     @IBOutlet private weak var label1: UILabel!
     @IBOutlet private weak var label2: UILabel!
@@ -16,7 +16,8 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        outputHoge(label: label1)
+        outputFuga(label: label2)
     }
 
     override func didReceiveMemoryWarning() {
